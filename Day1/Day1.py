@@ -13,11 +13,12 @@ def division(x,y): print(x/y)
 
 while(1):
     draw_line()
-    select_method = input("원하는 방법을 골라주세요 \n")
+    select_method = int(input("원하는 방법을 골라주세요 \n"))
     if(select_method == 5):
         print("bye")
+        draw_line()
         break
-    
+ 
     draw_line()
 
     x,y = input("두 숫자를 입력하시오\n").split()
